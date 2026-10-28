@@ -21,3 +21,5 @@ self.addEventListener("fetch", (event) => {
   // pass-through: sempre rete, nessuna copia in cache
   event.respondWith(fetch(event.request));
 });
+
+// const BUILD_SEED = 0x5105b0cf;
